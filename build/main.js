@@ -219,7 +219,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 var app = new __WEBPACK_IMPORTED_MODULE_1_koa___default.a();
 var host = process.env.HOST || '127.0.0.1';
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
 start();
 
