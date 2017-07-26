@@ -196,7 +196,7 @@ var start = function () {
               };
             }());
 
-            app.listen(port, host);
+            app.listen(port);
             console.log('Server listening on ' + host + ':' + port); // eslint-disable-line no-console
 
           case 18:
